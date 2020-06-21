@@ -5,11 +5,15 @@
     <classes>
       <class name="testScripts.LoginTest">
         <methods>
-          <include name="afterTest"/>
           <include name="loginTest"/>
-          <include name="beforeTest"/>
         </methods>
       </class> <!-- testScripts.LoginTest -->
+      <class name="testScripts.BaseTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testScripts.BaseTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

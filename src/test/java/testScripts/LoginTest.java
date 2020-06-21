@@ -17,7 +17,6 @@ public class LoginTest extends BaseTest{
 		basePage = new BasePage(driver);
 		result = basePage.goToLoginPage().isLoginPageDisplayed();
 		AssertJUnit.assertTrue(result);
-		//loginPage = new LoginPage(driver);
 		
 	}
 }

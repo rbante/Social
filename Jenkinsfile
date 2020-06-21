@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+      docker {'selenium/standalone-chrome:3.141.59-20200525'}
+    }
     environment {
         CI = 'true'
     }
